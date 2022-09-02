@@ -1,0 +1,18 @@
+#footer {
+    grid-area: footer;
+    border-top: solid 0.1875rem black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    .footer__copyright {
+        margin-left: 0.9735rem;
+        font-weight: 450;
+    }
+    .footer__nav {
+        .footer__nav__link {
+            text-decoration: none;
+            color: black;
+            margin-right: 0.9735rem;
+        }
+    }
+}

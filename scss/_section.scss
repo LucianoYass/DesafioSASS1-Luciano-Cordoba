@@ -1,0 +1,241 @@
+#main {
+    .main__section {
+        .main__section__galeria {
+            .main__section__galeria__fila {
+                display: flex;
+                .main__section__galeria__fila__columna {
+                    .main__section__galeria__fila__columna__img {
+                        width: 100%;
+                        border-radius: 1.25rem;
+                        padding: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        .galeria__videoUno {
+            margin: 0.9375rem;
+            padding: 0.625rem;
+            display: flex;
+            align-items: center;
+            .textoUno {
+                color: white;
+                font-size: 1.5625rem;
+                margin: 0.9735rem;
+                padding: 0.9735rem;
+                text-align: center;
+            }
+            .galeria__videoUno__div {
+                .galeria__videoUno__div__video {
+                    border: solid 0.3125rem;
+                    border-color: white;
+                    border-radius: 0.9375rem;
+                }
+            }
+        }
+        .galeria__videoDos {
+            margin: 0.9375em;
+            padding: 0.625em;
+            display: flex;
+            align-items: center;
+            .galeria__videoDos__div {
+                .galeria__videoDos__div__video {
+                    border: solid 0.3125em;
+                    border-color: white;
+                    border-radius: 0.9375em;
+                }
+            }
+            .textoDos {
+                color: white;
+                font-size: 1.5625rem;
+                margin: 0.9735rem;
+                padding: 0.9735rem;
+                text-align: center;
+            }
+        }
+    }
+
+    #section {
+        grid-area: section;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        .textoUno {
+            color: white;
+            font-size: 1.5625rem;
+            margin: 0.9735rem;
+            padding: 0.9735rem;
+        }
+        .tabla {
+            color: black;
+            .tabla__diseño {
+                text-align: center;
+                .tabla__diseño__celdas {
+                    padding: 0.625em;
+                    border: 0.25em solid white;
+                    background-color: white;
+                    border-radius: 1.5625em;
+                    .tabla__diseño__celdas__bordes {
+                        .tabla__diseño__celdas__bordes--tituloBronce {
+                            background-color: rgb(122, 67, 12);
+                            border: 0.3125em solid black;
+                            color: black;
+                            border-radius: 0.625em;
+                            padding: 0.9375em;
+                            margin: 0.1875em;
+                            font-size: 1.5625em;
+                            font-weight: bolder;
+                        }
+                        .tabla__diseño__celdas__bordes--tituloPlata {
+                            background-color: rgb(100, 100, 100);
+                            border: 0.3125em solid black;
+                            color: black;
+                            border-radius: 0.625em;
+                            padding: 0.9375em;
+                            margin: 0.1875em;
+                            font-size: 1.5625em;
+                            font-weight: bolder;
+                        }
+                        .tabla__diseño__celdas__bordes--tituloOro {
+                            background-color: rgb(155, 133, 9);
+                            border: 0.3125em solid black;
+                            color: black;
+                            border-radius: 0.625em;
+                            padding: 0.9375em;
+                            margin: 0.1875em;
+                            font-size: 1.5625em;
+                            font-weight: bolder;
+                        }
+                    }
+                    .tabla__diseño__celdas__bordes {
+                        .tabla__diseño__celdas__bordes--bronce{
+                            border: 0.3125em solid black;
+                            border-radius: 0.625em;
+                            padding: 0.625em;
+                            margin: 0.1875em;
+                            font-size: 1.25em;
+                            font-weight: 600;
+                            background-color: rgb(205, 127, 50);
+                        }
+                        .tabla__diseño__celdas__bordes--plata{
+                            border: 0.3125em solid black;
+                            border-radius: 0.625em;
+                            padding: 0.625em;
+                            margin: 0.1875em;
+                            font-size: 1.25em;
+                            font-weight: 600;
+                            background-color: rgb(192, 192, 192);
+                        }
+                        .tabla__diseño__celdas__bordes--oro{
+                            border: 0.3125em solid black;
+                            border-radius: 0.625em;
+                            padding: 0.625em;
+                            margin: 0.1875em;
+                            font-size: 1.25em;
+                            font-weight: 600;
+                            background-color: rgb(255, 215, 0);
+                        }
+                    }    
+                }
+            }
+        }
+
+        .informacion {
+            display: flex;
+            align-items: center;
+            .informacion__fotoPerfil {
+                margin: 0.625rem;
+                padding: 0.9375rem;
+                .informacion__fotoPerfil__img {
+                    border: 0.3125rem solid white;
+                    border-radius: 0.625rem;
+                }
+            }
+            .textoUno {
+                text-align: center;
+            }
+        }
+        .locacion {
+            display: flex;
+            align-items: center;
+            .textoDos {
+                color: white;
+                font-size: 1.5625rem;
+                margin: 0.9735rem;
+                padding: 0.9735rem;
+                text-align: center;
+            }
+            .locacion__mapa {
+                margin: 0.625rem;
+                padding: 0.9375rem;
+                .locacion__mapa__maps {
+                    border-radius: 0.625rem;
+                }
+            }
+        }
+    }
+
+    .seccion {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .articulo {
+            color: white;
+            .formulario {
+                text-align: center;
+                .formulario__datos {
+                    .formulario__datos__form {
+                        display: flex;
+                        flex-direction: column;
+                        border: 0.3125rem solid;
+                        border-radius: 0.9375rem;
+                        margin-left: 31.25rem;
+                        padding: 0.8rem;
+                        .btn {
+                            border-radius: 0.625rem;
+                        }
+                        .btn--green {
+                            border-radius: 0.625rem;
+                            font-weight: bolder;
+                        }
+                        .btn--red {
+                            border-radius: 0.625rem;
+                            font-weight: bolder;
+                        }
+                    }
+                }
+            }
+        }
+        .aside {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: white;
+            margin-right: 31.25rem;
+            .aside__titulo {
+                font-weight: bolder;
+                font-size: 1.5625rem;
+                text-align: center;
+                margin: 0.9375rem;
+            }
+            .asideImgUno {
+                margin: 0.625rem;
+                border: 0.3125rem solid white;
+                border-radius: 1.875rem;
+            }
+            .asideImgDos {
+                margin: 0.625rem;
+                border: 0.3125rem solid white;
+                border-radius: 1.875rem;
+            }
+        }
+    }
+}
