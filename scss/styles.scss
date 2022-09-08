@@ -1,18 +1,19 @@
-@import "variables";
-@import "reset";
-@import "body";
-@import "header";
-@import "main";
-@import "section";
-@import "footer";
-@import "medias";
+@import "./reset";
+@import "./body";
+@import "./header";
+@import "./main";
+@import "./section";
+@import "./footer";
 
-.btn--green:hover {
-    background-color: green;
-    cursor: pointer; 
+
+$botones: (rojo: #e0490d, verde: #31d100, cursor: pointer);
+
+.btn--green {
+    background-color: map-get($botones, verde);
+    cursor: map-get($botones, pointer) ; 
 }
   
-.btn--red:hover {
-    background-color: red;
-    cursor: pointer; 
+.btn--red {
+    background-color: map-get($botones, rojo);
+    cursor: map-get($botones, pointer); 
 }
